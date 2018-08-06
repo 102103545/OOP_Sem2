@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week02_primefibbonaci", "week02_primefibbonaci\week02_primefibbonaci.csproj", "{53751943-EB1D-4008-AED5-7D8B5A46002A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53751943-EB1D-4008-AED5-7D8B5A46002A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53751943-EB1D-4008-AED5-7D8B5A46002A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53751943-EB1D-4008-AED5-7D8B5A46002A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53751943-EB1D-4008-AED5-7D8B5A46002A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {344331ED-76A6-4803-8A5B-669C86543A52}
+	EndGlobalSection
+EndGlobal
