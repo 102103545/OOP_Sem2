@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfAppToDos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppToDos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="lblHeading" Content="ToDos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstTodos" HorizontalAlignment="Left" Height="211" Margin="10,98,0,0" VerticalAlignment="Top" Width="497" />
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" TextChanged="txtInput_TextChanged" GotFocus="txtInput_GotFocus" Text="enter items here"/>
+        <Button x:Name="btnAdd" Content="Add To Do" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="241" Height="24" Click="Button_Click"/>
+        <Button x:Name="btnRemove" Content="Remove To Do" HorizontalAlignment="Left" Margin="265,69,0,0" VerticalAlignment="Top" Width="241" Height="24" Click="btnRemove_Click"/>
+
+    </Grid>
+</Window>
